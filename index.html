@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>LaunchEnglish - TOEIC Practice Test #1</title>
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans"
+    />
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"
+    />
+  </head>
+  <body>
+
+    <!-- <nav>
+      <img src="launchenglish-logo1-removebg-preview.png" alt="">
+      <div>
+        <ul class="nav-menu">
+          <li><a href="https://www.launchenglish.com" class="nav-link1">HOME</a></li>
+          <li><a href="https://blog.launchenglish.com" class="nav-link2">BLOG</a></li>
+        </ul>
+      </div>
+      <div onclick="pay()" id="rnav">
+        <svg
+          id="opicon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#000000"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </div>
+      <div onclick="cod()" id="srnav">
+        <svg
+          id="exicon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#000000"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </div>
+    </nav>
+    <div id="rlist">
+      <ul id="Links">
+        <li><a href="https://www.launchenglish.com">HOME</a></li>
+        <li><a href="https://blog.launchenglish.com">BLOG</a></li>
+      </ul>
+    </div> -->
+
+  <nav>
+
+    
+    <!-- <div class="logo">LaunchEnglish</div> -->
+    <!-- <div class="navbar"> -->
+      <!-- <ul class="nav-menu">
+        <li><a href="https://www.launchenglish.com" class="nav-link">Home</a></li>
+        <li><a href="https://blog.launchenglish.com" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+      </ul> -->
+    <!-- </div> -->
+
+    <div class="hamburger">
+      <!-- <span class="bar"></span> -->
+      <!-- <span class="bar"></span> -->
+      <!-- <span class="bar"></span> -->
+    </div>
+  </nav>
+
+    <div id="container">
+      <div class="title">
+        <h1>TOEIC Practice Test #1</h1>
+        <h3>200 Questions</h3>
+        <p id="qType"></p>
+      </div>
+      <br />
+      <div id="containerInner">
+        <h3 style="text-align: center"></h3>
+        <div id="image">
+          <img src="#" width="50%"/>
+        </div>
+        <div id="audio">
+          <h5>Audio</h5>
+          <audio
+            controls
+            src="/audio/Button Down Sound.mp3"
+            style="width: 100%">
+            Your browser does not support the audio element.
+          </audio>
+          <!-- <audio src="/audio/Button-Down-Sound.ogg" controls>
+                        Your browser does not support the audio element.
+                        </audio> -->
+        </div>
+        <p id="content"></p>
+        <h6><i></i></h6>
+      </div>
+      <div id="quiz"></div>
+      <button class="button" id="next"><a href="#">Next</a></button>
+      <button class="button" id="prev"><a href="#">Prev</a></button>
+      <button class="button" id="start"><a href="#">Start Over</a></button>
+      <div class="capture" id="capt">
+        <p>Don't have time to finish the test?</p>
+        <p>Enter your email address and we will send a link to continue the exam.</p>
+        <p>However, once you complete the entire exam, you will automatically be emailed an entire PDF with all the solutions and explanations.</p>
+        <div class="email-cont">
+          <input type="text" class="email" />
+          <button class="save-button">Save Exam</button>
+        </div>
+      </div>
+    </div>
+
+    <!--this is for the NaN quiz alert-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!--<script type="text/javascript" src='questions.json'></script>
+        -->
+    <script type="text/javascript" src="js/questions.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
