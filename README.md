@@ -1,2 +1,2 @@
 # launchenglish
-This is the codebase for launchenglish.com, which is a website built for learners worldwide who wish to learn and study English.
+This is the codebase for the TOEIC1 exam on launchenglish.com.
