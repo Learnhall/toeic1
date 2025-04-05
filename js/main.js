@@ -842,7 +842,7 @@ $(document).on("click", 'a[href^="#"]', function (event) {
 
                   <div class="score">
 
-                    <h1>TOEIC 1 Results</h1>
+                    <h1>TOEIC 1 Test Results</h1>
 
                     You scored ${score} out of ${totalQuestions}
 
